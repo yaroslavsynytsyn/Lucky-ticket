@@ -23,7 +23,7 @@ namespace Lycky_ticket
 
                 if (ticketLength < MIN_NUMBER || ticketLength >= MAX_NUMBER)
                 {
-                    Console.WriteLine($"The number is long. Number can be {MIN_NUMBER} to {MAX_NUMBER}");
+                    Console.WriteLine($"The number is not valid. Number can be {MIN_NUMBER} to {MAX_NUMBER}");
                 }
                 else
                 {
